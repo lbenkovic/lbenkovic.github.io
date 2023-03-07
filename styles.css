@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: auto;
+    max-width: 1200px;
+    height: auto;
+    max-height: 600px;
+    background-color: #e0ebf7;
+    padding: 40px;
+    flex-wrap: nowrap;
+
+}
+
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 4.5vw;
+    text-shadow: 0 0 1px white;
+    color: #2f2e43;
+    font-family: 'Kalam', cursive;
+
+}
+
+#subtext {
+    font-style: italic;
+    font-size: 1.2vw;
+    color: #2f2e43;
+    margin: 0;
+    text-shadow: 0 0 1px white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hero-opis {
+    width: 50%;
+    text-align: center;
+}
+
+#luka {
+    width: 35%;
+    height: auto;
+    max-height: 450px;
+    border: 8px solid #397491;
+    border-radius: 20px;
+}
